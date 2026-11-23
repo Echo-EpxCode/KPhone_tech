@@ -1,0 +1,129 @@
+const sections = [
+    {
+        name: "header",
+        enabled: true,
+    },
+
+    {
+        name: "hero",
+        enabled: true,
+    },
+
+    {
+        name: "about",
+        enabled: false,
+    },
+
+    {
+        name: "features",
+        enabled: false,
+    },
+
+    {
+        name: "digitalStampCard",
+        enabled: false,
+    },
+
+    {
+        name: "products",
+        enabled: false,
+    },
+
+    {
+        name: "menu",
+        enabled: false,
+    },
+
+    {
+        name: "portfolio",
+        enabled: false,
+    },
+
+    {
+        name: "process",
+        enabled: false,
+    },
+
+    {
+        name: "team",
+        enabled: false,
+    },
+
+    {
+        name: "statistics",
+        enabled: true,
+    },
+
+    {
+        name: "gallery",
+        enabled: false,
+    },
+
+    {
+        name: "video",
+        enabled: false,
+    },
+
+    {
+        name: "testimonials",
+        enabled: false,
+    },
+
+    {
+        name: "reviews",
+        enabled: false,
+    },
+
+    {
+        name: "ratings",
+        enabled: false,
+    },
+
+    {
+        name: "socialProof",
+        enabled: false,
+    },
+
+    {
+        name: "cta",
+        enabled: false,
+    },
+
+    {
+        name: "socialCta",
+        enabled: false,
+    },
+
+    {
+        name: "contact",
+        enabled: false,
+    },
+
+    {
+        name: "booking",
+        enabled: false,
+    },
+
+    {
+        name: "services",
+        enabled: true,
+    },
+
+
+    {
+        name: "location",
+        enabled: true,
+    },
+
+    {
+        name: "finalCta",
+        enabled: false,
+    },
+
+    {
+        name: "footer",
+        enabled: true,
+    },
+];
+
+export default sections;
