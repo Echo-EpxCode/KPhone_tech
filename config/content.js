@@ -20,7 +20,7 @@ const content = {
             href: "#services",
         },
 
-        highlights: ["High Quality Parts", "Affordable Prices", "Trusted Service"],
+        highlights: ["Fast Turnaround", "High Quality Parts", "Affordable Prices", "Trusted Service"],
 
         image: {
             src: "./assets/images/kphone-tech-bg.mpo",
@@ -765,14 +765,14 @@ const content = {
         title: "Visit Our Location",
         description: "Find our business and get directions using Google Maps.",
 
-        address: "Business Address, Philippines",
+        address: "Davao City, Philippines",
 
-        directionsUrl: "https://maps.app.goo.gl/DChu1WbhYhUDqwdNA",
+        directionsUrl: "https://maps.app.goo.gl/pG573JaAyPPtMwRk7",
 
         // Optional. Use a Google Maps Embed API URL or
         // a valid Google Maps embed URL.
         mapEmbedUrl:
-            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31676.0245965964!2d125.5589117987655!3d7.067519037796011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32f96d5ca927d001%3A0xfe94f003e3e6e446!2sMatina%20Crossing%2C%20Talomo%2C%20Davao%20City%2C%20Davao%20del%20Sur!5e0!3m2!1sen!2sph!4v1791696480253!5m2!1sen!2sph",
+            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3227.4732111839226!2d125.56728157394448!3d7.058096992944353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32f973002081e72b%3A0x235ef5c45dd73789!2skphonetech!5e1!3m2!1sen!2sph!4v1795490983493!5m2!1sen!2sph",
     },
     finalCta: {
         eyebrow: "Ready When You Are",

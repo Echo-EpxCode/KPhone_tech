@@ -665,7 +665,7 @@ function updateHeroContent() {
         hero.highlights.forEach((highlight) => {
             const item = document.createElement("div");
 
-            item.className = "flex items-center gap-2";
+            item.className = "flex min-w-0 items-center justify-center gap-1 whitespace-nowrap";
 
             const icon = document.createElement("i");
 
