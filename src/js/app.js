@@ -2129,7 +2129,11 @@ function updateStatisticsContent() {
     grid.replaceChildren();
 
     statistics.items.forEach((item) => {
-        const card = document.createElement("article");
+        const card = document.createElement(item.url ? "a" : "article");
+
+        if (item.url) {
+            card.href = item.url;
+        }
 
         card.className =
             "flex min-w-0 flex-1 flex-col items-center rounded-[var(--radius-xl)] border border-[var(--color-border)] bg-[var(--color-surface)] p-3 text-center shadow-[var(--shadow-sm)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[var(--shadow-md)] sm:p-6";
