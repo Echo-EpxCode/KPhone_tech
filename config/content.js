@@ -12,12 +12,12 @@ const content = {
 
         primaryAction: {
             label: "Connect With Us",
-            href: "#contact",
+            href: "#statistics",
         },
 
         secondaryAction: {
             label: "Learn More",
-            href: "#about",
+            href: "#services",
         },
 
         highlights: ["High Quality Parts", "Affordable Prices", "Trusted Service"],
