@@ -466,17 +466,17 @@ const content = {
             {
                 value: "Google Review",
                 label: "Customer feedback",
-                icon: "bi-google",
+                iconImage: "./assets/icons/google.svg",
             },
             {
                 value: "Facebook",
                 label: "News and updates",
-                icon: "bi-facebook",
+                iconImage: "./assets/icons/facebook.svg",
             },
             {
                 value: "TikTok",
                 label: "Videos and updates",
-                icon: "bi-tiktok",
+                iconImage: "./assets/icons/tiktok.svg",
             },
         ],
     },

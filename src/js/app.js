@@ -2161,13 +2161,23 @@ function updateStatisticsContent() {
         iconWrapper.className =
             "mb-3 flex h-10 w-10 shrink-0 items-center justify-center rounded-[var(--radius-md)] bg-[var(--color-primary)]/10 text-[var(--color-primary)] sm:mb-4 sm:h-11 sm:w-11";
 
-        const icon = document.createElement("i");
+        if (item.iconImage) {
+            const iconImage = document.createElement("img");
 
-        icon.className = `bi ${item.icon || "bi-bar-chart"}`;
+            iconImage.src = item.iconImage;
+            iconImage.alt = "";
+            iconImage.className = "h-6 w-6 object-contain";
+            iconImage.setAttribute("aria-hidden", "true");
 
-        icon.setAttribute("aria-hidden", "true");
+            iconWrapper.appendChild(iconImage);
+        } else {
+            const icon = document.createElement("i");
 
-        iconWrapper.appendChild(icon);
+            icon.className = `bi ${item.icon || "bi-bar-chart"}`;
+            icon.setAttribute("aria-hidden", "true");
+
+            iconWrapper.appendChild(icon);
+        }
 
         const value = document.createElement("p");
 
