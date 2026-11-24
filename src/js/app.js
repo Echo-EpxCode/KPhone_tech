@@ -953,33 +953,11 @@ function updateServicesContent() {
 
             /*
                 |--------------------------------------------------------------------------
-                | Arrow
-                |--------------------------------------------------------------------------
-                */
-
-            const arrow = document.createElement("div");
-
-            arrow.className = "mt-6 flex items-center gap-2 text-sm font-semibold text-[var(--color-primary)]";
-
-            const arrowText = document.createElement("span");
-
-            arrowText.textContent = "Learn More";
-
-            const arrowIcon = document.createElement("i");
-
-            arrowIcon.className = "bi bi-arrow-right transition-transform duration-300 group-hover:translate-x-1";
-
-            arrowIcon.setAttribute("aria-hidden", "true");
-
-            arrow.append(arrowText, arrowIcon);
-
-            /*
-                |--------------------------------------------------------------------------
                 | Assemble Card
                 |--------------------------------------------------------------------------
                 */
 
-            card.append(iconWrapper, title, text, arrow);
+            card.append(iconWrapper, title, text);
 
             grid.appendChild(card);
         });
