@@ -34,11 +34,9 @@ const site = {
     // SOCIAL MEDIA
     // =====================================================
 
-    facebook: "https://www.facebook.com/KPhoneTechCenter",
+    facebook: "https://www.facebook.com/profile.php?id=61579611569519",
 
-    instagram: "https://www.instagram.com/KPhoneTechCenter",
-
-    tiktok: "https://www.tiktok.com/@KPhoneTechCenter",
+    tiktok: "https://www.tiktok.com/@kibatech01",
 
     // =====================================================
     // WEBSITE
@@ -72,7 +70,7 @@ const site = {
             {
                 id: "messenger",
                 label: "Chat with us",
-                 url: "https://www.facebook.com/",
+                 url: "https://m.me/61579611569519",
                 enabled: true,
                 color: "#042249",
                 icon: "",

@@ -23,8 +23,8 @@ const content = {
         highlights: ["Fast Turnaround", "High Quality Parts", "Affordable Prices", "Trusted Service"],
 
         image: {
-            src: "./assets/images/kphone-tech-bg.mpo",
-            alt: "Sample pic sa Terra Mango",
+            src: "./assets/images/bg_03.jpg",
+            alt: "KPhone Tech Center Hub",
         },
 
         card: {
@@ -746,13 +746,13 @@ const content = {
         addressLabel: "Visit Us",
     },
     footer: {
-        description: "Discover our business, explore our offerings, and get in touch with us.",
+        description: "Alaga namin ang iyong phone!",
 
         navigation: [
             { label: "Home", url: "#top" },
-            { label: "About", url: "#about" },
+            { label: "About", url: "#statistics" },
             { label: "Services", url: "#services" },
-            { label: "Contact", url: "#contact" },
+            { label: "Contact", url: "#location" },
         ],
 
         copyrightText: "All rights reserved.",
