@@ -65,38 +65,54 @@ const content = {
         },
     },
     services: {
-        eyebrow: "Our Services",
+        eyebrow: "iPhone & Android Repair",
 
         title: {
-            main: "What We",
-            highlight: "Offer.",
+            main: "iPhone & Android",
+            highlight: "Repairs.",
         },
 
-        description: "Explore the services we provide to help you achieve your goals.",
+        description:
+            "From screen and battery replacement to software troubleshooting, get help with common iPhone and Android phone problems.",
 
         items: [
             {
-                icon: "bi-code-slash",
-
-                title: "Web Development",
-
-                description: "Modern and responsive websites built around your business needs.",
-            },
-
-            {
                 icon: "bi-phone",
 
-                title: "Mobile ",
+                title: "Screen Replacement",
 
-                description: "A smooth and consistent experience across phones, tablets, and desktops.",
+                description: "Screen replacement for iPhone and Android phones with cracked or damaged displays.",
             },
 
             {
-                icon: "bi-lightning",
+                icon: "bi-battery-charging",
 
-                title: "Fast Performance",
+                title: "Battery Replacement",
 
-                description: "Optimized pages designed for speed, usability, and a better customer experience.",
+                description: "Battery replacement service for iPhone and Android devices.",
+            },
+
+            {
+                icon: "bi-usb-c",
+
+                title: "Charging Port Repair",
+
+                description: "Repair service for charging port problems on iPhone and Android phones.",
+            },
+            {
+                icon: "bi-camera",
+                title: "Camera Repair",
+                description: "Camera repair service for iPhone and Android devices.",
+            },
+            {
+                icon: "bi-droplet",
+                title: "Water Damage",
+                description: "Repair service for phones affected by water damage.",
+            },
+            {
+                icon: "bi-gear",
+                title: "Software Troubleshooting",
+                description: "Troubleshooting support for iPhone and Android software issues.",
             },
         ],
     },
