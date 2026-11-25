@@ -82,6 +82,8 @@ const content = {
                 title: "Screen Replacement",
 
                 description: "Screen replacement for iPhone and Android phones with cracked or damaged displays.",
+
+                image: "./assets/images/service-screen.jpg",
             },
 
             {
@@ -90,6 +92,8 @@ const content = {
                 title: "Battery Replacement",
 
                 description: "Battery replacement service for iPhone and Android devices.",
+
+                image: "./assets/images/service-battery.jpg",
             },
 
             {
@@ -98,21 +102,26 @@ const content = {
                 title: "Charging Port Repair",
 
                 description: "Repair service for charging port problems on iPhone and Android phones.",
+
+                image: "./assets/images/service-charging-port.jpg",
             },
             {
                 icon: "bi-camera",
                 title: "Camera Repair",
                 description: "Camera repair service for iPhone and Android devices.",
+                image: "./assets/images/service-camera.jpg",
             },
             {
                 icon: "bi-droplet",
                 title: "Water Damage",
                 description: "Repair service for phones affected by water damage.",
+                image: "./assets/images/service-water-damage.jpg",
             },
             {
                 icon: "bi-gear",
                 title: "Software Troubleshooting",
                 description: "Troubleshooting support for iPhone and Android software issues.",
+                image: "./assets/images/service-software.jpg",
             },
         ],
     },

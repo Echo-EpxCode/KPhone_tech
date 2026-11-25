@@ -26,13 +26,15 @@ const site = {
 
     phone: "+63 919 445 7269",
 
-    email: "hello@example.com",
+    email: "charliecorrompido@gmail.com",
 
     address: "Matina Crossing, Davao City, Philippines",
 
     // =====================================================
     // SOCIAL MEDIA
     // =====================================================
+
+    google: "https://www.google.com",
 
     facebook: "https://www.facebook.com/profile.php?id=61579611569519",
 

@@ -906,7 +906,16 @@ function updateServicesContent() {
             const card = document.createElement("article");
 
             card.className =
-                "group rounded-[var(--radius-xl)] border border-[var(--color-border)] bg-[var(--color-surface)] p-6 shadow-[var(--shadow-sm)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[var(--shadow-md)] sm:p-7";
+                "group relative flex flex-col overflow-hidden rounded-[var(--radius-xl)] border border-[var(--color-border)] bg-[var(--color-text)] p-6 shadow-[var(--shadow-sm)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[var(--shadow-md)] sm:p-7";
+
+            card.style.minHeight = "18rem";
+            card.style.backgroundColor = "var(--color-text)";
+
+            if (service.image) {
+                card.style.backgroundImage = `linear-gradient(to top, rgb(0 0 0 / 0.92), rgb(0 0 0 / 0.62) 55%, rgb(0 0 0 / 0.18)), url("${service.image}")`;
+                card.style.backgroundPosition = "center";
+                card.style.backgroundSize = "cover";
+            }
 
             /*
                 |--------------------------------------------------------------------------
@@ -917,7 +926,10 @@ function updateServicesContent() {
             const iconWrapper = document.createElement("div");
 
             iconWrapper.className =
-                "mb-6 flex h-12 w-12 items-center justify-center rounded-[var(--radius-lg)] bg-[var(--color-primary)]/10 text-[var(--color-primary)] transition-colors duration-300 group-hover:bg-[var(--color-primary)] group-hover:text-[var(--color-surface)]";
+                "mb-4 flex h-12 w-12 items-center justify-center rounded-[var(--radius-lg)] transition-colors duration-300";
+            iconWrapper.style.backgroundColor = "rgb(255 255 255 / 0.16)";
+            iconWrapper.style.color = "#ffffff";
+            iconWrapper.style.backdropFilter = "blur(4px)";
 
             const icon = document.createElement("i");
 
@@ -935,7 +947,7 @@ function updateServicesContent() {
 
             const title = document.createElement("h3");
 
-            title.className = "text-xl font-bold tracking-tight text-[var(--color-text)]";
+            title.className = "text-xl font-bold tracking-tight text-white";
 
             title.textContent = service.title;
 
@@ -947,9 +959,17 @@ function updateServicesContent() {
 
             const text = document.createElement("p");
 
-            text.className = "mt-3 text-base leading-7 text-[var(--color-text-muted)]";
+            text.className = "mt-3 text-base leading-7";
+            text.style.color = "rgb(255 255 255 / 0.9)";
 
             text.textContent = service.description;
+
+            const content = document.createElement("div");
+            content.style.position = "relative";
+            content.style.zIndex = "1";
+            content.style.marginTop = "auto";
+
+            content.append(iconWrapper, title, text);
 
             /*
                 |--------------------------------------------------------------------------
@@ -957,7 +977,7 @@ function updateServicesContent() {
                 |--------------------------------------------------------------------------
                 */
 
-            card.append(iconWrapper, title, text);
+            card.append(content);
 
             grid.appendChild(card);
         });
