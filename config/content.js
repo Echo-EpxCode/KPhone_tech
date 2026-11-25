@@ -490,7 +490,7 @@ const content = {
         items: [
             {
                 value: "Google Review",
-                label: "Customer feedback",
+                label: "Share your experience on Google",
                 iconImage: "./assets/icons/google.svg",
                 url: "https://search.google.com/local/writereview?placeid=ChIJK-eBIABz-TIRiTfXXcT1XiM",
                 target: "_blank",
