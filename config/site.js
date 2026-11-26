@@ -24,7 +24,7 @@ const site = {
     // CONTACT INFORMATION
     // =====================================================
 
-    phone: "+63 919 445 7269",
+    phone: "0999 583 7313",
 
     email: "charliecorrompido@gmail.com",
 
@@ -70,13 +70,13 @@ const site = {
                 logo: "./assets/images/Grab/Grab_Logo_6.png",
             },
             {
-                id: "messenger",
-                label: "Chat with us",
-                 url: "https://m.me/61579611569519",
+                id: "phone",
+                label: "Call us",
+                url: "tel:09995837313",
                 enabled: true,
-                color: "#042249",
-                icon: "",
-                logo: "./assets/icons/messenger.svg",
+                color: "#15803D",
+                icon: "bi-telephone-fill",
+                logo: "",
             },
         ],
     },
